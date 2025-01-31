@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "elenchos-check-memory"
+name = "elenchos_check_memory"
 version = "0.1.0"
 description = "A Élenchos command for checking total, available, used, and free memory."
 authors = ["Set Based IT Consultancy <info@setbased.nl>"]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/NagiosElenchos/check-memory"
-documentation = "https://github.com/NagiosElenchos/check-memory"
+repository = "https://github.com/NagiosElenchos/check_memory"
+documentation = "https://github.com/NagiosElenchos/check_memory"
 keywords = ["Élenchos", "Elenchos", "Memory"]
 classifiers = [
     'Development Status :: 5 - Production/Stable',

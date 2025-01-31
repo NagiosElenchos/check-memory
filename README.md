@@ -26,7 +26,7 @@ Install the `check:memory` plugin:
 cd /opt/elenchos
 . .venv/bin/activate
 
-pip install elenchos-check-memory
+pip install elenchos_check_memory
 ./bin/elenchos gather-commands
 ```
 
