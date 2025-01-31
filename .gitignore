@@ -1,0 +1,7 @@
+**/__pycache__/
+/.idea/
+/.venv/
+/bin/
+/composer.lock
+/poetry.lock
+/vendor/
