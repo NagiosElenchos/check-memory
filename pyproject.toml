@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "elenchos-check-memory"
-version = "1.2.0"
+version = "0.1.0"
 description = "A Élenchos command for checking total, available, used, and free memory."
 authors = ["Set Based IT Consultancy <info@setbased.nl>"]
 license = "MIT"
