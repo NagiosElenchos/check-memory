@@ -3,5 +3,6 @@
 /.venv/
 /bin/
 /composer.lock
+/dist/
 /poetry.lock
 /vendor/
