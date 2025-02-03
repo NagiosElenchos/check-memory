@@ -57,18 +57,26 @@ class MemoryPlugin(NagiosPlugin):
         self._add_performance_data(PerformanceData(name='Total Memory',
                                                    value=meminfo['MemTotal'][0],
                                                    value_in_description=self.__bytes_to_gib(meminfo['MemTotal'][0]),
+                                                   min_value=0,
+                                                   max_value=meminfo['MemTotal'][0],
                                                    unit='B'))
         self._add_performance_data(PerformanceData(name='Available Memory',
                                                    value=meminfo['MemAvailable'][0],
                                                    value_in_description=self.__bytes_to_gib(meminfo['MemAvailable'][0]),
+                                                   min_value=0,
+                                                   max_value=meminfo['MemTotal'][0],
                                                    unit='B'))
         self._add_performance_data(PerformanceData(name='Used Memory',
                                                    value=meminfo['MemUsed'][0],
                                                    value_in_description=self.__bytes_to_gib(meminfo['MemUsed'][0]),
+                                                   min_value=0,
+                                                   max_value=meminfo['MemTotal'][0],
                                                    unit='B'))
         self._add_performance_data(PerformanceData(name='Free Memory',
                                                    value=meminfo['MemFree'][0],
                                                    value_in_description=self.__bytes_to_gib(meminfo['MemFree'][0]),
+                                                   min_value=0,
+                                                   max_value=meminfo['MemTotal'][0],
                                                    unit='B'))
 
         for key, (value, unit) in meminfo.items():
